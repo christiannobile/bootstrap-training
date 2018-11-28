@@ -1,0 +1,58 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+}
+.jumbotron {
+    background-image: url(images/five-guys-hero.jpg);
+    background-size: cover;
+    height: 70vh;
+    color: white;
+    font-family: 'Fira Sans', sans-serif;
+    text-align: left;
+    border-radius: 0%;
+}
+
+.intro {
+    font-size: 3em;
+}
+
+.btn-outline-light {
+    border-radius: 0px;
+    border: 2px solid;
+}
+
+.card {
+    border: 0px;
+    color: rgb(169, 0, 33);
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.menu {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 2em;
+    padding-top: 200px;
+}
+
+.food {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1em;
+}
+
+.toppings>li {
+    display: inline-block;
+    list-style-type: disc;
+}
+
+.toppings>li::before {
+    margin-left: 0px;
+    content: '•';
+}
+
+.topping {
+    margin-top: 30px;
+}
+
+.fa-envelope {
+    font-size:5em;
+}
